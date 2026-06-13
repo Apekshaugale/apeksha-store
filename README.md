@@ -9,4 +9,4 @@ This project is created for learning and portfolio purposes.
 
 ## 🚀 Live Demo
 
-(Add your deployed link here)
+(https://apeksha-store-rmbw.vercel.app/)
