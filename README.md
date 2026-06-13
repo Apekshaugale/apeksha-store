@@ -1,31 +1,12 @@
-### To intsall all rhe required dependecies
+# 🛒 Apeksha Store (React E-Commerce Project)
 
-```
-npm install
-```
+Apeksha Store is a modern and responsive **e-commerce web application built using React JS**.  
+It demonstrates key React concepts such as Context API, React Router, component-based architecture, and state management.
 
-## Start the project
+This project is created for learning and portfolio purposes.
 
-```
-npm start
-```
+---
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Live Demo
 
-### Test the application
-
-```
-npm test
-```
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### Build application
-
-```
-npm run build
-```
-
-Builds the app for production to the `build` folder.<br>
+(Add your deployed link here)

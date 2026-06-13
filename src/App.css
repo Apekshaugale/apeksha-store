@@ -1,40 +1,60 @@
 :root {
- --mainBlue:#2a2a72;
- --lightBlue:#009ffd;
- --mainWhite:#f3f3f3;
- --mainDark:#232528;
- --mainYellow:#ffa400;
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
 }
-body{
-  font-family:"Anton", sans-serif !important;
-  background:var(--mainWhite) !important;
-  color:var(--mainDark) !important;
+
+body {
+  font-family: "Anton", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.text-title{
-  font-family: 'Anton', cursive;
-  letter-spacing:0.3rem;
-  text-transform: uppercase; 
+
+/* Title styling */
+.text-title {
+  font-family: "Anton", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
-.text-blue{
-  color:var(--mainBlue);
+
+/* Colors */
+.text-blue {
+  color: var(--mainBlue);
 }
-.text-bright{
-  color:var(--lightBlue);
+
+.text-bright {
+  color: var(--lightBlue);
 }
-.btn-black{
-  background:transparent;
-  text-transform:capitalize;
-  font-size:0.8rem !important;
-  color:var(--mainDark);
+
+/* Buttons */
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.85rem !important;
+  color: var(--mainDark);
   border-radius: 0 !important;
-  border:0.1rem solid var(--mainDark) !important;
+  border: 0.1rem solid var(--mainDark) !important;
+  transition: all 0.3s ease-in-out;
 }
-.btn-black:hover{
-  background:var(--mainDark) !important;
-  color:var(--mainWhite) !important;
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
 }
-.cart-icon{
-  cursor:pointer;
-  font-size:1.2rem;
-  color:var(--mainYellow);
+
+/* Cart icon */
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+  transition: color 0.3s ease-in-out;
+}
+
+.cart-icon:hover {
+  color: var(--lightBlue);
 }
